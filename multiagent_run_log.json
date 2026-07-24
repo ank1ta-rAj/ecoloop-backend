@@ -1,0 +1,1106 @@
+[
+  {
+    "hour": 0,
+    "reading": {
+      "hour": 0,
+      "energy_kwh": 48.14,
+      "material_units": 27.4,
+      "vibration_mm_s": 2.62,
+      "temp_c": 58.23
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 1,
+    "reading": {
+      "hour": 1,
+      "energy_kwh": 46.81,
+      "material_units": 22.68,
+      "vibration_mm_s": 2.53,
+      "temp_c": 58.92
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 2,
+    "reading": {
+      "hour": 2,
+      "energy_kwh": 50.99,
+      "material_units": 19.38,
+      "vibration_mm_s": 2.67,
+      "temp_c": 58.86
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 3,
+    "reading": {
+      "hour": 3,
+      "energy_kwh": 50.72,
+      "material_units": 23.66,
+      "vibration_mm_s": 2.38,
+      "temp_c": 59.69
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 4,
+    "reading": {
+      "hour": 4,
+      "energy_kwh": 51.3,
+      "material_units": 23.49,
+      "vibration_mm_s": 2.42,
+      "temp_c": 60.03
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 5,
+    "reading": {
+      "hour": 5,
+      "energy_kwh": 44.52,
+      "material_units": 20.21,
+      "vibration_mm_s": 2.5,
+      "temp_c": 57.99
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": true,
+        "finding": "Energy Drop",
+        "confidence": 85,
+        "reason": [
+          "Energy deviation (Z-score = -2.84)",
+          "Deviation from historical baseline"
+        ],
+        "action": "Inspect motors, compressors and idle equipment."
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "Inspect motors, compressors and idle equipment."
+    ],
+    "approvals": [
+      {
+        "agent": "Energy Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 6,
+    "reading": {
+      "hour": 6,
+      "energy_kwh": 40.32,
+      "material_units": 21.96,
+      "vibration_mm_s": 2.37,
+      "temp_c": 57.21
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": true,
+        "finding": "Energy Drop",
+        "confidence": 85,
+        "reason": [
+          "Energy deviation (Z-score = -3.37)",
+          "Deviation from historical baseline"
+        ],
+        "action": "Inspect motors, compressors and idle equipment."
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "Inspect motors, compressors and idle equipment."
+    ],
+    "approvals": [
+      {
+        "agent": "Energy Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 7,
+    "reading": {
+      "hour": 7,
+      "energy_kwh": 60.67,
+      "material_units": 33.41,
+      "vibration_mm_s": 2.67,
+      "temp_c": 60.2
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent",
+      "Maintenance Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": true,
+        "finding": "Energy Spike",
+        "confidence": 85,
+        "reason": [
+          "Energy deviation (Z-score = 3.50)",
+          "Deviation from historical baseline"
+        ],
+        "action": "Inspect motors, compressors and idle equipment."
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 85,
+        "reason": [
+          "Material deviation (Z-score = 4.41)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      },
+      {
+        "agent": "Maintenance Agent",
+        "is_anomaly": true,
+        "finding": "Elevated Equipment Health Risk",
+        "confidence": 58.1,
+        "reason": [
+          "Temperature = 60.2\u00b0C",
+          "Vibration = 2.67 mm/s"
+        ],
+        "action": "Schedule preventive maintenance within 24 hours."
+      }
+    ],
+    "actions": [
+      "Inspect motors, compressors and idle equipment.",
+      "Inspect production line for defects, leakage or excessive consumption.",
+      "Schedule preventive maintenance within 24 hours."
+    ],
+    "approvals": [
+      {
+        "agent": "Energy Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Material Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Maintenance Agent",
+        "confidence": 58.1,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 8,
+    "reading": {
+      "hour": 8,
+      "energy_kwh": 81.03,
+      "material_units": 42.96,
+      "vibration_mm_s": 2.73,
+      "temp_c": 61.55
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent",
+      "Maintenance Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": true,
+        "finding": "Energy Spike",
+        "confidence": 85,
+        "reason": [
+          "Energy deviation (Z-score = 5.71)",
+          "Deviation from historical baseline"
+        ],
+        "action": "Inspect motors, compressors and idle equipment."
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 85,
+        "reason": [
+          "Material deviation (Z-score = 4.49)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      },
+      {
+        "agent": "Maintenance Agent",
+        "is_anomaly": true,
+        "finding": "Elevated Equipment Health Risk",
+        "confidence": 58.8,
+        "reason": [
+          "Temperature = 61.55\u00b0C",
+          "Vibration = 2.73 mm/s"
+        ],
+        "action": "Schedule preventive maintenance within 24 hours."
+      }
+    ],
+    "actions": [
+      "Inspect motors, compressors and idle equipment.",
+      "Inspect production line for defects, leakage or excessive consumption.",
+      "Schedule preventive maintenance within 24 hours."
+    ],
+    "approvals": [
+      {
+        "agent": "Energy Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Material Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Maintenance Agent",
+        "confidence": 58.8,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 9,
+    "reading": {
+      "hour": 9,
+      "energy_kwh": 163.75,
+      "material_units": 52.06,
+      "vibration_mm_s": 2.66,
+      "temp_c": 62.02
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent",
+      "Maintenance Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": true,
+        "finding": "Energy Spike",
+        "confidence": 85,
+        "reason": [
+          "Energy deviation (Z-score = 9.82)",
+          "Deviation from historical baseline"
+        ],
+        "action": "Inspect motors, compressors and idle equipment."
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 85,
+        "reason": [
+          "Material deviation (Z-score = 3.62)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      },
+      {
+        "agent": "Maintenance Agent",
+        "is_anomaly": true,
+        "finding": "Elevated Equipment Health Risk",
+        "confidence": 59.0,
+        "reason": [
+          "Temperature = 62.02\u00b0C",
+          "Vibration = 2.66 mm/s"
+        ],
+        "action": "Schedule preventive maintenance within 24 hours."
+      }
+    ],
+    "actions": [
+      "Inspect motors, compressors and idle equipment.",
+      "Inspect production line for defects, leakage or excessive consumption.",
+      "Schedule preventive maintenance within 24 hours."
+    ],
+    "approvals": [
+      {
+        "agent": "Energy Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Material Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      },
+      {
+        "agent": "Maintenance Agent",
+        "confidence": 59.0,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 10,
+    "reading": {
+      "hour": 10,
+      "energy_kwh": 111.34,
+      "material_units": 57.92,
+      "vibration_mm_s": 2.56,
+      "temp_c": 63.2
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 85,
+        "reason": [
+          "Material deviation (Z-score = 2.83)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      }
+    ],
+    "actions": [
+      "Inspect production line for defects, leakage or excessive consumption."
+    ],
+    "approvals": [
+      {
+        "agent": "Material Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 11,
+    "reading": {
+      "hour": 11,
+      "energy_kwh": 114.19,
+      "material_units": 54.44,
+      "vibration_mm_s": 2.81,
+      "temp_c": 65.59
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 12,
+    "reading": {
+      "hour": 12,
+      "energy_kwh": 117.04,
+      "material_units": 63.46,
+      "vibration_mm_s": 2.92,
+      "temp_c": 65.94
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 82.5,
+        "reason": [
+          "Material deviation (Z-score = 2.17)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      }
+    ],
+    "actions": [
+      "Inspect production line for defects, leakage or excessive consumption."
+    ],
+    "approvals": [
+      {
+        "agent": "Material Agent",
+        "confidence": 82.5,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 13,
+    "reading": {
+      "hour": 13,
+      "energy_kwh": 119.15,
+      "material_units": 61.16,
+      "vibration_mm_s": 2.59,
+      "temp_c": 65.72
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 14,
+    "reading": {
+      "hour": 14,
+      "energy_kwh": 112.76,
+      "material_units": 98.25,
+      "vibration_mm_s": 2.8,
+      "temp_c": 63.82
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": true,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": true,
+        "finding": "Material Waste Increased",
+        "confidence": 85,
+        "reason": [
+          "Material deviation (Z-score = 3.49)",
+          "Usage exceeds historical trend"
+        ],
+        "action": "Inspect production line for defects, leakage or excessive consumption."
+      }
+    ],
+    "actions": [
+      "Inspect production line for defects, leakage or excessive consumption."
+    ],
+    "approvals": [
+      {
+        "agent": "Material Agent",
+        "confidence": 85,
+        "status": {
+          "approved": true,
+          "message": "Auto-approved."
+        }
+      }
+    ]
+  },
+  {
+    "hour": 15,
+    "reading": {
+      "hour": 15,
+      "energy_kwh": 97.16,
+      "material_units": 49.41,
+      "vibration_mm_s": 2.75,
+      "temp_c": 61.93
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 16,
+    "reading": {
+      "hour": 16,
+      "energy_kwh": 86.39,
+      "material_units": 41.74,
+      "vibration_mm_s": 2.69,
+      "temp_c": 61.22
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 17,
+    "reading": {
+      "hour": 17,
+      "energy_kwh": 70.98,
+      "material_units": 34.83,
+      "vibration_mm_s": 2.51,
+      "temp_c": 61.5
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 18,
+    "reading": {
+      "hour": 18,
+      "energy_kwh": 53.04,
+      "material_units": 28.48,
+      "vibration_mm_s": 4.45,
+      "temp_c": 74.39
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 19,
+    "reading": {
+      "hour": 19,
+      "energy_kwh": 43.97,
+      "material_units": 27.14,
+      "vibration_mm_s": 2.25,
+      "temp_c": 59.85
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 20,
+    "reading": {
+      "hour": 20,
+      "energy_kwh": 53.21,
+      "material_units": 20.0,
+      "vibration_mm_s": 2.39,
+      "temp_c": 57.04
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 21,
+    "reading": {
+      "hour": 21,
+      "energy_kwh": 48.98,
+      "material_units": 27.79,
+      "vibration_mm_s": 2.74,
+      "temp_c": 56.33
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 22,
+    "reading": {
+      "hour": 22,
+      "energy_kwh": 45.7,
+      "material_units": 25.76,
+      "vibration_mm_s": 2.68,
+      "temp_c": 59.63
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      }
+    ],
+    "actions": [
+      "All systems operating normally."
+    ],
+    "approvals": []
+  },
+  {
+    "hour": 23,
+    "reading": {
+      "hour": 23,
+      "energy_kwh": 45.02,
+      "material_units": 24.74,
+      "vibration_mm_s": 2.44,
+      "temp_c": 58.69
+    },
+    "agents_run": [
+      "Energy Agent",
+      "Material Agent",
+      "ESG Agent"
+    ],
+    "flagged": false,
+    "findings": [
+      {
+        "agent": "Energy Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "Material Agent",
+        "is_anomaly": false,
+        "finding": null,
+        "confidence": 0,
+        "reason": null,
+        "action": null
+      },
+      {
+        "agent": "ESG Agent",
+        "is_anomaly": false,
+        "finding": "Daily Sustainability Summary",
+        "confidence": 100,
+        "reason": [
+          "Daily operational data aggregated",
+          "Prepared for ESG reporting"
+        ],
+        "action": "ESG Report Ready | Total Energy: 1757 kWh | Total Material: 902 units | Readings: 24"
+      }
+    ],
+    "actions": [
+      "ESG Report Ready | Total Energy: 1757 kWh | Total Material: 902 units | Readings: 24"
+    ],
+    "approvals": [
+      {
+        "agent": "ESG Agent",
+        "confidence": 100,
+        "status": {
+          "approved": false,
+          "message": "Manager approval required before scheduling maintenance."
+        }
+      }
+    ]
+  }
+]
