@@ -12,8 +12,10 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "https://ecoloopai-frontend.vercel.app",
+        "https://ecoloopai-frontend-adityapandey19850828-2264s-projects.vercel.app",
         "http://localhost:5173",
     ],
+    allow_origin_regex=r"https://ecoloopai-frontend.*\.vercel\.app",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
